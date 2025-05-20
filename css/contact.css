@@ -1,0 +1,258 @@
+.contact-part {
+    padding: 70px 0px;
+    background: var(--chalk)
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 50px 30px 45px;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08)
+}
+
+
+.contact-info i {
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #053678
+}
+
+.contact-info h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    position: relative
+}
+
+.contact-info h3::before {
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    border-radius: 30px;
+    background: #053678)
+}
+
+.contact-info h3::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 2px;
+    border-radius: 30px;
+    background: #053678
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 30px
+}
+
+.contact-info p span {
+    display: block
+}
+
+.contact-map {
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08)
+}
+
+.contact-map iframe {
+    border: none;
+    width: 100%;
+    height: 487px
+}
+
+.contact-form {
+    padding: 30px;
+    background: #021851;
+    border-radius: 8px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08)
+}
+
+.form-btn .btn {
+    width: 100%;
+    height: 50px;
+    padding: 10px 30px
+}
+
+.btn-inline {
+    color: var(--white);
+    background: #053678;
+    border-color: #053678
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+.form-control {
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 0px;
+    color: var(--heading);
+    background: var(--chalk);
+    border-bottom: 2px solid var(--border);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    color: var(--gray);
+    background: var(--chalk);
+    border-color: #053678
+}
+
+textarea.form-control {
+    height: 215px;
+    padding: 15px 20px
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 8px;
+    text-transform: capitalize
+}
+
+.form-control::-webkit-file-upload-button {
+    height: 45px;
+    border: none;
+    background: none;
+    color: var(--placeholder)
+}
+
+.form-control::-webkit-file-upload-button:focus {
+    border: none;
+    outline: none
+}
+
+.btn {
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid;
+    padding: 14px 32px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-shadow: var(--primary-tshadow);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s
+}
+
+.btn:focus {
+    box-shadow: none 
+}
+
+.btn i {
+    margin-top: -1px;
+    margin-right: 5px
+}
+
+.btn-inline {
+    color: white;
+    background: #d2232a;
+    border-color:#053678
+}
+
+.btn-inline:hover {
+    color: white;
+    background: #053678;
+    border-color: #053678
+}
+
+.btn-outline {
+    color: #053678;
+    background: white;
+    border-color:#053678
+}
+
+.btn-outline:hover {
+    color: white;
+    background: #053678;
+    border-color: #053678
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+.form-control {
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 0;
+    color: #7c848b;
+    background: #f5f5f5;
+    border-bottom: 2px solid #e8e8e8;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    color: var(--gray);
+    background: var(--chalk);
+    border-color: var(--primary)
+}
+
+textarea.form-control {
+    height: 215px;
+    padding: 15px 20px
+}
+
+@media (max-width: 767px) {
+    .contact-part {
+        padding: 60px 0px
+    }
+}
+
+@media (max-width: 991px) {
+    .contact-form {
+        padding: 20px
+    }
+
+    .contact-map {
+        padding: 20px;
+        margin-bottom: 30px
+    }
+
+    .contact-map iframe {
+        height: 300px
+    }
+    
+    
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact-part {
+        padding: 80px 0px
+    }
+}
